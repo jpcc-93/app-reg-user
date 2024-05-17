@@ -4,9 +4,13 @@ import com.registro.usuarios.dto.UsuarioRegistroDTO;
 import com.registro.usuarios.modelo.Usuario;
 import org.springframework.security.core.userdetails.UserDetailsService;
 
+import java.util.List;
+
 public interface UsuarioServicio extends UserDetailsService {
 
-    Usuario guardar(UsuarioRegistroDTO registroDTO);
+    public Usuario guardar(UsuarioRegistroDTO registroDTO);
+
+    public List<Usuario> listarUsuarios();
 
 
 }

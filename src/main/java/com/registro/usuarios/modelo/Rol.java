@@ -1,6 +1,7 @@
 package com.registro.usuarios.modelo;
 
-import jakarta.persistence.*;
+
+import javax.persistence.*;
 
 @Entity
 @Table(name = "rol")

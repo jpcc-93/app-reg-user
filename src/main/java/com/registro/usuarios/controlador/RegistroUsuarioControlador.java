@@ -15,6 +15,7 @@ public class RegistroUsuarioControlador {
     private UsuarioServicio usuarioServicio;
 
     public RegistroUsuarioControlador(UsuarioServicio usuarioServicio) {
+        super();
         this.usuarioServicio = usuarioServicio;
     }
 
@@ -25,6 +26,7 @@ public class RegistroUsuarioControlador {
 
     @GetMapping
     public String mostrarFormularioRegistro(){
+
         return "registro";
     }
 

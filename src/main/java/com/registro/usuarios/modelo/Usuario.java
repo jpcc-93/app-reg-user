@@ -1,8 +1,8 @@
 package com.registro.usuarios.modelo;
 
 
-import jakarta.persistence.*;
 
+import javax.persistence.*;
 import java.util.Collection;
 
 @Entity
